@@ -88,6 +88,6 @@ To change the size:
 This setup is provided under the MIT License, which means you can use it freely for personal use. The `LICENSE.txt` file in the `hamclock-main` folder includes copyright notices for Chris Romp (for the Docker setup) and Emmett Casey (for the Windows scripts and instructions). The HamClock software itself is subject to its own licensing terms, as noted on the [HamClock website](https://www.clearskyinstitute.com/ham/HamClock/).
 
 ## Thank You
-A heartfelt thank you to the team at [ChrisRomp/hamclock-docker](https://github.com/ChrisRomp/hamclock-docker) for building the HamClock Docker package that this setup is based on. Their hard work makes it possible for us to enjoy HamClock with just a few clicks. We’re so grateful for their contribution to the ham radio community!
+A heartfelt thank you to the team at [ChrisRomp/hamclock-docker](https://github.com/ChrisRomp/hamclock-docker) for building the HamClock Docker package that this setup is based on. Their hard work makes it possible for us to enjoy HamClock with just a few clicks. I'm so grateful for their contribution to the ham radio community!
 
 Happy hamming, and enjoy your HamClock!
