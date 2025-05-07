@@ -9,7 +9,7 @@ We’ve included two special files to start and stop HamClock, so you don’t ne
 - **`stop.bat`**: This file turns off HamClock when you’re done. Stopping HamClock saves your computer’s battery and power, which is great if you’re not using it for a while or want your computer to run other programs faster.
 - **`Dockerfile`** and **`docker-compose.yml`**: These files tell Docker how to build and run HamClock. You don’t need to touch them—they work quietly in the background.
 - **`LICENSE.txt`**: A file that explains the rules for using this setup. It’s based on the MIT License, which means you can use it freely for personal use.
-- **`readme.md`**: This guide you’re reading now!
+- **`README.md`**: This guide you’re reading now!
 
 ## What You Need
 - A Windows computer (Windows 10 or 11, 64-bit version). Most modern computers are 64-bit, but ask a friend if you’re unsure.
