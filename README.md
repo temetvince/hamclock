@@ -8,6 +8,7 @@ We’ve included two special files to start and stop HamClock, so you don’t ne
 - **`start.bat`**: This file gets your computer ready to run HamClock and opens it in your web browser (like Microsoft Edge, Chrome, or Firefox). It sets everything up the first time, including making Docker start automatically when your computer turns on, and starts HamClock whenever you need it.
 - **`stop.bat`**: This file turns off HamClock when you’re done. Stopping HamClock saves your computer’s battery and power, which is great if you’re not using it for a while or want your computer to run other programs faster.
 - **`Dockerfile`** and **`docker-compose.yml`**: These files tell Docker how to build and run HamClock. You don’t need to touch them—they work quietly in the background.
+- **`LICENSE.txt`**: A file that explains the rules for using this setup. It’s based on the MIT License, which means you can use it freely for personal use.
 - **`readme.md`**: This guide you’re reading now!
 
 ## What You Need
@@ -73,7 +74,7 @@ To change the size:
 5. Save the file (click **File** > **Save** in Notepad) and close Notepad.
 6. Double-click `stop.bat` to turn off HamClock (if it’s running).
 7. Double-click `start.bat` to start HamClock with the new size. It may take **5–10 minutes** to rebuild HamClock with the new size, just like the first setup.
-8. The HamClock又有 window in your browser will now show the new size.
+8. The HamClock window in your browser will now show the new size.
 
 If editing the file feels tricky, ask a friend or family member to help. Choose a size that looks clear and comfortable on your screen.
 
@@ -87,7 +88,10 @@ If editing the file feels tricky, ask a friend or family member to help. Choose 
 - **Setup Takes Too Long**:
   - The first time you run `start.bat`, it can take **5–10 minutes** to build HamClock, especially on older computers. This also happens if you change the size. This only happens once per setup or size change. Grab a cup of coffee and give it time.
 - **Need Help?**:
-  - If something doesn’t work, ask a friend or family member for help. You can also visit the [HamClock Docker page](https:// Dwayne G. /hamclock-docker) for more details or check the [Docker Desktop guide](https://docs.docker.com/desktop/windows/install/) for setup tips.
+  - If something doesn’t work, ask a friend or family member for help. You can also visit the [HamClock Docker page](https://github.com/ChrisRomp/hamclock-docker) for more details or check the [Docker Desktop guide](https://docs.docker.com/desktop/windows/install/) for setup tips.
+
+## License
+This setup is provided under the MIT License, which means you can use it freely for personal use. The `LICENSE.txt` file in the `hamclock-main` folder includes copyright notices for Chris Romp (for the Docker setup) and Vince (for the Windows scripts and instructions). The HamClock software itself is subject to its own licensing terms, as noted on the [HamClock website](https://www.clearskyinstitute.com/ham/HamClock/).
 
 ## Thank You
 A heartfelt thank you to the team at [ChrisRomp/hamclock-docker](https://github.com/ChrisRomp/hamclock-docker) for building the HamClock Docker package that this setup is based on. Their hard work makes it possible for us to enjoy HamClock with just a few clicks. We’re so grateful for their contribution to the ham radio community!
